@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Ermeson Nathan</title>
+    <!-- Inclua o link para o arquivo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Inclua o script JavaScript de validação -->
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h2>Entre em Contato</h2>
+    <form action="enviar-contato.php" method="post" onsubmit="return validarFormulario()">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone"><br><br>
+        
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto"><br><br>
+        
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

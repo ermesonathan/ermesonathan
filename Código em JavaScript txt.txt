@@ -1,0 +1,10 @@
+function validarFormulario() {
+    var nome = document.forms["contatoForm"]["nome"].value;
+    var email = document.forms["contatoForm"]["email"].value;
+
+    if (nome == "" || email == "") {
+        alert("Os campos Nome e E-mail são obrigatórios.");
+        return false;
+    }
+    return true;
+}

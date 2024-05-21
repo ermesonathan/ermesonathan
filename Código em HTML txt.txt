@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ermeson Nathan</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos CSS adicionados inline para demonstração */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ddd;
+        }
+        main {
+            padding-top: 20px;
+        }
+        section {
+            padding: 40px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn.green {
+            background-color: #4CAF50; /* Verde para o botão no rodapé */
+        }
+        .btn.green:hover {
+            background-color: #45a049;
+        }
+        .justificado {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Ermeson Nathan</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre-mim">Sobre Mim</a></li>
+                    <li><a href="#producoes-cientificas">Produções Científicas</a></li>
+                    <li><a href="#producoes-artisticas">Produções Artísticas</a></li>
+                    <li><a href="#loja">Loja</a></li>
+                    <li><a href="#" onclick="window.open('contato.html', '_blank')">Contato</a></li>
+                    <li>
+                        <form action="/search" method="get">
+                            <input type="text" name="q" placeholder="Pesquisar..." aria-label="Pesquisar no site">
+                            <button type="submit">Pesquisar</button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção Sobre Mim -->
+        <section id="sobre-mim" class="section">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p class="justificado">
+                    <a href="https://www.linkedin.com/in/ermeson-nathan-a84564169/?trk=public_profile_browsemap_mini-profile_title&originalSubdomain=br" target="_blank"><strong>Ermeson Nathan</strong></a>
+                    é um profissional múltiplo, combinando os papéis de bibliotecário, cientista, escritor e artista brasileiro. Sua jornada é marcada por uma abordagem diversificada em pensamento e ações, dedicando-se aos estudos e aplicações na análise de dados e na transformação desses dados em informações poderosas através do Power BI. Seu trabalho facilita a visualização e a tomada de decisões em diversas áreas de análise.
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção Produções Científicas -->
+        <section id="producoes-cientificas" class="section">
+            <div class="container">
+                <h2>Produções Científicas</h2>
+                <p class="justificado">Aqui você encontra algumas das minhas produções no campo acadêmico:</p>
+                <p class="justificado"><strong>Tese</strong> - em construção UFPB</p>
+                <p class="justificado"><strong>Dissertação</strong><br>
+                    <a href="https://repositorio.ufpe.br/bitstream/123456789/29690/1/DISSERTA%C3%87%C3%83O%20Emerson%20Nathan%20Pereira%20Alves.pdf" target="_blank">ABIDORAL JAMACARU: a poesia como elemento de memória na região do Cariri Cearense</a> (Mestrado em Ciência da Informação, UFPE, 2018).<br>
+                    Orientadora: <a href="http://lattes.cnpq.br/7416324505673009" target="_blank">Dra. Anna Elizabeth Galvão Coutinho Correia</a>
+                </p>
+                <p class="justificado"><strong>Monografia</strong><br>
+                    <a href="https://sites.ufca.edu.br/biblioteconomia/wp-content/uploads/sites/11/2019/04/2015-ERMESON-NATHAN-PEREIRA-ALVES.pdf" target="_blank">MEMÓRIA E POESIA: uma análise dos escritos poéticos de Abidoral Jamacaru</a> (Graduação em Biblioteconomia, UFCA, 2015).<br>
+                    Orientadora: <a href="http://lattes.cnpq.br/7431498333122929" target="_blank">Dra. Gracy Kelli Martins</a>
+                </p>
+                <p class="justificado"><strong>Artigos</strong><br>
+                    1. <a href="https://periodicos.ufca.edu.br/ojs/index.php/folhaderosto/article/view/665" target="_blank">Territorialização de um Epistemicídio</a><br>
+                        Autores/as: Vitória Gomes Almeida, Ermeson Nathan Pereira Alves
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção Produções Artísticas -->
+        <section id="producoes-artisticas" class="section">
+            <div class="container">
+                <h2>Produções Artísticas</h2>
+                <p class="justificado">
+                    Ermeson Nathan tem seu primeiro livro de Literatura publicado pela editora Frutificando intitulado de '<a href="https://www.editorafrutificando.com.br/banzo" target="_blank">Banzo: a saudade que mata</a>'. 
+                    <br><br>
+                    Quando o estado de melancolia invade a alma, ou você morre ou você deságua em arte. Banzo é um estado de espírito de tristeza imensa, os escritos aqui não estão almejando a chegada, mas a volta para a casa (mental) interior de um eu que está a se refazer. Mas como voltar quando se perdeu do caminho? Agora, a arte bate à porta e pulsa no peito, expelindo catarse pelos poros, negá-la não é uma boa solução. Este livro mistura uma reflexão do eu, com uma boa dose de crônicas e textos com teor de autoanálise com fins a conhecer a si mesmo. Numa outra parte do livro temos poemas dos mais diversos temas, catarses do indivíduo que procura através da escrita encontrar-se. E, por fim, chega-se aos atos, textos interligados por uma temática para reflexão da vida cotidiana. Um mergulho em si.
+                </p>
+                <br>
+                <p class="justificado"><strong>Produção AudioVisual</strong></p>
+                <p class="justificado">
+                    Algumas das produções audiovisuais estão no YouTube e podem ser conferidas clicando sobre os seus títulos:<br>
+                    <a href="https://www.youtube.com/watch?v=mT8QmXlHS0E" target="_blank">Voz e Liberdade - um manifesto acadêmico</a>;<br>
+                    <a href="https://www.youtube.com/watch?v=RJ3_S00EmUE" target="_blank">O que são Fontes de Informação? | @ermesonathan explica</a>;<br>
+                    <a href="https://www.youtube.com/watch?v=st3xVACVNAI&t=5s" target="_blank">Racismo Sexismo Epistêmico | @ermesonathan explica</a>;<br>
+                    <a href="https://www.youtube.com/watch?v=-dX4ReKh34E" target="_blank">O que é descolonização do conhecimento | @ermesonathan explica.</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção Loja -->
+        <section id="loja" class="section">
+            <div class="container">
+                <h2>Loja</h2>
+                <!-- Conteúdo da Loja -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>Produzido por Ermeson Nathan</p>
+            <p>Telefone: (88) 9.9635-0535</p>
+            <p>E-mail: <a href="mailto:ermesonathan@gmail.com">ermesonathan@gmail.com</a></p>
+            <p><a href="http://lattes.cnpq.br/3595152758580670" target="_blank">Currículo Lattes</a></p>
+        </div>
+    </footer>
+
+    <!-- Formulário de Contato (Oculto) -->
+    <div id="formulario-contato" style="display: none;">
+        <h2>Entre em Contato</h2>
+        <form name="contatoForm" onsubmit="return validarFormulario()">
+            <label for="nome">Nome *</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone"><br><br>
+            <label for="selecao">Selecione um campo *</label>
+            <select id="selecao" name="selecao" required>
+                <option value="informacao">Informação</option>
+                <option value="sugestao">Sugestão</option>
+            </select><br><br>
+            <label for="mensagem">Mensagem *</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+            <button type="submit">Enviar</button>
+            <p><strong>Nota:</strong> Preenchimento de campo obrigatório *</p>
+        </form>
+    </div>
+
+</body>
+</html>
